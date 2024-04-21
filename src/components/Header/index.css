@@ -1,0 +1,175 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+
+
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #E5E5E5;
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 180px;
+    text-align: center;
+    color: rgb(236, 73, 100);
+
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.language {
+    font-size: 25px;
+
+}
+
+.icon {
+    font-size: 20px;
+    margin: 12px;
+}
+
+.tab-items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    top: 140px;
+    left: 302px;
+
+    gap: 34px;
+    opacity: 0px;
+    align-self: center;
+
+}
+
+.tab {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px;
+    cursor: pointer;
+}
+
+
+.tab:hover {
+    color: rgb(236, 73, 100);
+}
+
+.description-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.description-head {
+    font-size: 30px;
+}
+
+.description-para {
+    font-size: 20px;
+    width: 640px;
+    margin-top: auto;
+}
+
+@media screen and (max-width:768px) {
+   
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: #E5E5E5;
+    
+    }
+    .icon {
+        font-size: 15px;
+        margin: 6px;
+    }
+
+    .tab-items {
+        display: none;
+    }
+
+
+    .haburger-icon {
+    
+        font-size: 30px;
+        margin-right: 20px;
+        margin-right: auto;
+    
+     }
+
+     .header {
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        justify-content: flex-start;
+        padding-left:10px;
+        padding-right: 10px;
+        width:100%;
+       
+    
+    }
+    .logo-title {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;
+        color: rgb(236, 73, 100);
+        margin-right: auto;
+    
+    }
+    .description-head {
+        font-size: 20px;
+    }
+    
+    .description-para {
+        font-size: 14px;
+        width: 340px;
+        margin-top: auto;
+    }
+
+    .language{
+        display: none;
+    }
+
+    .icons-container{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+       
+       margin-right:30px;
+       
+    }
+
+    
+
+ 
+}
+
+
+
+@media screen and (min-width:768px) {
+
+    .haburger-icon {
+
+        display:none;
+    }
+}
+
+
+ 

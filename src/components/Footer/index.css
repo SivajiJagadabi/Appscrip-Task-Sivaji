@@ -1,0 +1,254 @@
+.footer-container{
+    background-color: black;
+   
+   
+}
+
+.footer-section{
+    background-color: black;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    
+    margin:auto;
+}
+
+.footer-header-card{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.footer-header{
+    color:#ffffff;
+    font-size: 20px;
+
+}
+
+.footer-sign-description{
+    color:#ffffff;
+    font-size: 17px;
+}
+
+.input-box{
+    width:280px;
+    background-color: transparent;
+    height:32px;
+  outline:none;
+  background-color:#ffffff;;
+}
+
+.sub-btn{
+    width:120px;
+    background-color: transparent;
+    height:36px;
+    color:#e9e4e4;
+    border:1px solid #e9e4e4;
+    margin-left: 25px;
+    cursor:pointer;
+}
+.contact-us{
+    color:#ffffff;
+}
+
+.contact-head{
+    font-size: 20px;
+}
+
+.usa-logo-card{
+    display: flex;
+    align-items: center;
+}
+
+.usa-logo{
+    border-radius: 50px;
+    margin-right: 8px;
+}
+
+.footer-below-section{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:87%;
+}
+
+
+.menu-section{
+    color:#ffffff;
+    margin-left:70px;
+}
+
+.quick-link-section{
+    color:#ffffff;
+  
+}
+
+.title{
+    color:#ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.title-one{
+    color:#ffffff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.follow-section{
+    margin-left:20px ;
+}
+
+p{
+    cursor: pointer;
+}
+
+.follow-icons{
+    display:flex;
+    align-items: center;
+}
+.icon-border{
+    border:2px solid #ffffff;
+    border-radius: 100px;
+    width:30px;
+    height:30px;
+    padding:5px;
+    margin-right:8px;
+}
+.payment-methods{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.payment-options{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.pay-border{
+    border:2px solid #ffffff;
+    border-radius: 10px;
+    width:60px;
+    height:30px;
+    padding:5px;
+    margin:8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+.payment-logo{
+    height:20px;
+    align-self: center;
+}
+
+.payment-logo-amex{
+    height:48px;
+    align-self: center;
+    border-radius: 8px;
+}
+
+.copyright{
+    color:#ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:768px){
+    
+.footer-header-card{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content:center;
+    margin-top: 25px;
+}
+.input-box{
+    width:210px;
+    background-color: transparent;
+    height:32px;
+  outline:none;
+  background-color:#ffffff;;
+}
+
+.sub-btn{
+    width:90px;
+   
+    height:36px;
+    color:#e9e4e4;
+    border:1px solid #e9e4e4;
+    margin-left: 25px;
+    cursor:pointer;
+}
+.footer-below-section{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content:center;
+    width:100%;
+}
+
+.menu-section-mobile{
+    color:#ffffff;
+    margin-left:10px;
+}
+.payment-methods{
+    margin:1px;
+}
+
+.title{
+    color:#ffffff;
+    font-size: 18px;
+    margin:18px;
+    margin-left:0px;
+    
+}
+
+.follow-icons{
+    margin:1px;
+}
+
+.payment-options{
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+    margin-left:1px;
+}
+
+.quick-link-section-mobile{
+    color:#ffffff;
+    margin-left: 16px;;
+}
+
+
+
+.desktop-hide{
+    display: block;
+}
+.menu-section{
+    display:none;
+}
+.quick-link-section{
+    display: none;
+}
+.mobile-metta-use{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:350px;
+}
+
+}
+
+
+@media screen and (min-width:768px){
+    .desktop-hide{
+        display: none;
+    }
+       
+}

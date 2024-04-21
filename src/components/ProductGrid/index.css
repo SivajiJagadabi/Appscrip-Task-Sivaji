@@ -1,0 +1,9 @@
+.product-grid{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width:100%;
+   justify-content: flex-end;
+    margin:auto;
+    
+}

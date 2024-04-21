@@ -1,0 +1,145 @@
+.filter-product-section{
+    display: flex;
+    flex-direction: column;
+    
+   
+    width:90%;
+    
+
+}
+
+.filter-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin-left:80px;
+}
+
+.filter-total-items{
+    display: flex;
+    align-items: center;
+}
+.items-count{
+    font-size: 20px;
+}
+.hide-filter{
+    color:rgb(102, 100, 100);
+    font-size: 20px;
+    margin-left: 30px;;
+    display: flex;
+    align-items: center;
+}
+
+.filter-products-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    width:100%;
+    margin-left: 10px;
+    background-color: #E5E5E5;
+    
+}
+
+.filter-gorups{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width:330px;
+
+}
+
+.input-checkbox{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.ideal-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-list{
+    margin-left:0px;
+    padding-left:0px;
+    list-style-type:none;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+.check-box-category{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.product-categories{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.occasion{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.occasion-category{
+    font-size: 18px;
+}
+
+/* .products{
+    width:100%;
+    display: flex;
+} */
+
+@media screen and (max-width:768px) {
+    .filter-products-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        width:100%;
+        margin-left: 10px;
+        background-color: #E5E5E5;
+    }
+    
+    .filter-gorups{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        width:30%;
+    
+    }
+    .occasion-category{
+        font-size: 16px;
+    }
+    .filter-header{
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        width:100%;
+        margin-left:10px;
+    }
+    .items-count{
+        font-size: 16px;
+    }
+    .hide-filter{
+        color:rgb(102, 100, 100);
+        font-size: 14px;
+        margin-left: 10px;;
+        display: flex;
+        align-items: center;
+    }
+    .select-group{
+        margin-left: auto;
+    }
+
+
+}
