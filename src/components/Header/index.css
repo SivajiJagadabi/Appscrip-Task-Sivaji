@@ -48,7 +48,8 @@
     list-style-type: none;
 
     color:black;
-  
+   gap: 34px;
+    opacity: 0px;
     align-self: center;
 
 }
