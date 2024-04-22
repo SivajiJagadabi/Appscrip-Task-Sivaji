@@ -46,11 +46,9 @@
     display: flex;
     align-items: center;
     list-style-type: none;
-    top: 140px;
-    left: 302px;
 
-    gap: 34px;
-    opacity: 0px;
+    color:black;
+  
     align-self: center;
 
 }
